@@ -62,7 +62,7 @@ The performance of the agents might be improved by considering the following:
 
 - Consider procedures to reduce the episode-to-episode variation
   
-  I tried decaying the Ornstein-Uhlenbeck noise exponentially over the episodes (with rate 0.998), but this did not seem to help with reducing the variation (the maximum score and time to solve the environment also remained roughly the same). I could try decaying the noise more rapidly to see if this reduces the variation at the expense of exploitation.
+  I tried decaying the Ornstein-Uhlenbeck noise exponentially over the episodes (with rate 0.998), but this did not seem to help with reducing the variation (the maximum score and time to solve the environment also remained roughly the same). I could try decaying the noise more rapidly to see if this reduces the variation (at the expense of exploration).
 
 - Hyperparameter optimisation 
 
