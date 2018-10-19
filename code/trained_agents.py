@@ -1,13 +1,10 @@
-import os
-os.chdir('/Users/miguel/Documents/Courses/deep-reinforcement-learning/p3_collab-compet/workspace')
-
 from unityagents import UnityEnvironment
 from ddpg_multiple_agents import Agents
 import torch
 import numpy as np
 
 ### ENVIRONMENT ###
-env = UnityEnvironment(file_name='../Tennis.app', seed=2)
+env = UnityEnvironment(file_name='Tennis.app', seed=2)
 
 # get the default brain
 brain_name = env.brain_names[0]
@@ -50,44 +47,3 @@ while(True):
 
 print('Score:', np.max(score))    
 env.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
