@@ -70,6 +70,6 @@ The performance of the agents might be improved by considering the following:
 
 - Alternative learning algorithms
 
-  Alternative methods include PPO with team spirit and the multi-agent DDPG algorithm described ![here](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf) that uses centralised training and decnetralised execution. 
+  Alternative methods include PPO with team spirit and the multi-agent DDPG algorithm described ![here](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf) that uses centralised training and decentralised execution. 
 
 
